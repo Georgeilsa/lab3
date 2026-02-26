@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите имя получателя"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextGift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите подарок"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextSender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите имя отправителя"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Отправить"/>
+
+</LinearLayout>
